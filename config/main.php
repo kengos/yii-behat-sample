@@ -7,9 +7,9 @@
 // CWebApplication properties can be configured here.
 return array_merge(
   array(
-    'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
+    'basePath' => dirname(__FILE__) . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'app',
     'name'=>'My Web Application',
-
+    'runtimePath' => dirname(__FILE__) . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'runtime',
     // preloading 'log' component
     'preload'=>array('log'),
 
