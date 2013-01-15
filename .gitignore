@@ -3,3 +3,4 @@ composer.phar
 bin/behat
 config/db.php
 config/db-test.php
+public/assets/
